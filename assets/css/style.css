@@ -25,7 +25,7 @@ body{
         text-align: center;
         padding: 110px 0;
         text-transform: uppercase;
-        color: rgb(226, 112, 6);
+        color:#E58F00;
         text-shadow: 3px 2px 16px rgb(0, 0, 0);
     }
 
@@ -46,7 +46,7 @@ body{
         margin: 0;
         font-size: 30px;
         margin-top: 40px;
-        color: rgb(226, 112, 6);
+        color:#E58F00;
         text-shadow: 3px 2px 16px rgb(0, 0, 0);
     }
     
@@ -62,7 +62,7 @@ body{
         text-align: center;
         padding: 10px 10px;
         font-size: 20px;
-        color: rgb(226, 112, 6);
+        color:#E58F00;
         text-shadow: 3px 2px 16px rgb(0, 0, 0);
     }
 
