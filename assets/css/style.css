@@ -25,7 +25,7 @@ body{
         text-align: center;
         padding: 110px 0;
         text-transform: uppercase;
-        color: rgb(226, 112, 6);
+        color:#E58F00;
         text-shadow: 3px 2px 16px rgb(0, 0, 0);
     }
 
@@ -44,15 +44,17 @@ body{
         list-style-type: none;
         padding: 0;
         margin: 0;
-        font-size: 30px;
+        font-size: 45px;
         margin-top: 40px;
-        color: rgb(226, 112, 6);
-        text-shadow: 3px 2px 16px rgb(0, 0, 0);
+        margin-left: 170px;
+        color:#E58F00;
+        text-shadow: 3px 2px 1px rgb(0, 0, 0);
     }
     
     form#comm {
         border-radius: 10px;
         border-width: 6px;
+        background-color: rgba(0, 0, 0, 0.5);
         border-style: double;
         /* border-color: rgb(255, 0, 0); */
         margin-left: 100px;
@@ -62,8 +64,12 @@ body{
         text-align: center;
         padding: 10px 10px;
         font-size: 20px;
-        color: rgb(226, 112, 6);
-        text-shadow: 3px 2px 16px rgb(0, 0, 0);
+        color:#E58F00;
+        text-shadow: 3px 2px 1px rgb(0, 0, 0);
+    }
+
+    button#submit {
+        color:#E58F00;
     }
 
 
