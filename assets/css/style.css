@@ -1,20 +1,38 @@
 /* BODY */
 
-body.contact {
+body {
     color:black;
-    background-color:black;
-    background-image:url(background_menus.png);
+    background-color:white;
+    background-image:url(../../assets/images/background_menus.png);
     background-repeat: initial;
+    font-family: "Aachen BT";
+    padding: 0;
+    margin: 0;
 }
 
 /* HEADER */
 
-a.logo {
     margin: 0 auto;
+/* HOME */
+
+.firstBlockHome{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: black;
 }
 
-/* TITRE */
+.firstBlockHome img{
+    width: max-content;
+    height: max-content;
+}
 
-h1 {
+.firstBlockHome h2{
+    font-size: 32px;
+    color: #E58F00;
+}
+
+.firstBlockHome p{
+    font-size: 6px;
     color: white;
 }
