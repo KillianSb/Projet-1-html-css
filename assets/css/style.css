@@ -12,7 +12,11 @@ body{
     body.contact {
         color:black;
         background-color:white;
-        background-image:url(../../assets/images/background_Contact.jpg);
+        background: linear-gradient(
+        rgba(40, 40, 45, 0.5), 
+        rgba(40, 40, 45, 0.5)
+        ),
+        url(../../assets/images/background_Contact.jpg);
         background-repeat: initial;
         background-size: cover;
         font-family: "Aachen BT";
@@ -48,8 +52,7 @@ body{
         font-size: 45px;
         margin-top: 40px;
         margin-left: 170px;
-        color:#E58F00;
-        text-shadow: 3px 2px 1px rgb(0, 0, 0);
+        color:#ffffff;
     }
     
     form#comm {
