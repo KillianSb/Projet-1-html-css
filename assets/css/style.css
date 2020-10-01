@@ -110,3 +110,24 @@ body{
 .firstBlockHome .containerText{
     max-width: 731px;
 }
+/* MENU */
+    /* BODY */
+    .body_menu {
+        background-image:url(../../assets/images/background_menu.png);
+        background-repeat:no-repeat;
+        background-size: cover;
+        border: 4mm solid #f6ad1c;
+        margin: 0%;
+        padding: 0%;
+        }
+    
+        .linear-gradient {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(0deg, black, transparent);
+        }
+    
+    
