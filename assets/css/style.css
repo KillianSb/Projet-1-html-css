@@ -98,11 +98,15 @@ body{
 }
 
 .firstBlockHome h2{
-    font-size: 32px;
+    font-size: 64px;
     color: #E58F00;
 }
 
 .firstBlockHome p{
-    font-size: 6px;
+    font-size: 18px;
     color: white;
+}
+
+.firstBlockHome .containerText{
+    max-width: 731px;
 }
