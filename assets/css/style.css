@@ -1,14 +1,18 @@
-/* BODY */
+/* CONTACT */
 
-body {
-    color:black;
-    background-color:white;
-    background-image:url(../../assets/images/background_menus.png);
-    background-repeat: initial;
-    font-family: "Aachen BT";
-    padding: 0;
-    margin: 0;
-}
+    /* BODY */
+    body {
+        color:black;
+        background-color:white;
+        background-image:url(../../assets/images/background_menus.png);
+        background-repeat: initial;
+        font-family: "Aachen BT";
+        padding: 0;
+        margin: 0;
+    }
+    
+
+/* FIN CONTACT */
 
 /* HEADER */
 
