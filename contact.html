@@ -8,15 +8,39 @@
 
     <!-- Corp du HTML -->
     <body class="contact">
-    <!-- header -->
-    <header>
-        <!-- image -->
-        <a href="index.html" class="logo">
-            <img src="assets/images/Food-lover.png" alt="Logo" width="150" height="150" />
-        </a>
-    </header>
+    
+    <!-- section images titre -->
+    <section class="header_title">
+        <h1>Contact</h1>
+    </section>
+    <!-- section Renseignement -->
+    <section id="rens" class="renseignement">
+        <p>Nom : Nom</p>
+        <p>Prenom : Prenom</p>
+        <p>Téléphone : Téléphone</p>
+        <p>Mail : Mail</p>
+        <p>Adresse Complete : Adresse Complete</p>
+        <iframe id="Maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1348.4725569344262!2d-0.5522382493877871!3d47.47149899743431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480878ea17ae2b6b%3A0xb30bc38e87439506!2s5%20Place%20du%20Ralliement%2C%2049100%20Angers!5e0!3m2!1sfr!2sfr!4v1601563544342!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </section>
+    <!-- section Commentaire -->
+    <form id="comm"
+    action="https://formspree.io/xnqjnylo"
+    method="POST"
+    >
+    <label>
+        Votre email: <br />
+        <input type="text" name="_replyto"><br />
+    </label>
+    <label>
+        Votre message: <br />
+        <textarea name="message"></textarea><br />
+    </label>
 
-    <h1>Test</h1>
+    <!-- your other form fields go here -->
+
+    <button type="submit">Envoyer</button>
+    </form>
+    
 
     </body>
 </html>

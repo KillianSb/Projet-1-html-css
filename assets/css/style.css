@@ -5,16 +5,69 @@ body{
     margin: 0;
     font-family: "Aachen BT";
 }
+/* CONTACT */
 
-body.contact {
-    color:black;
-    background-color:white;
-    background-image:url(../../assets/images/background_menus.png);
-    background-repeat: initial;
-    font-family: "Aachen BT";
-    padding: 0;
-    margin: 0;
-}
+    /* BODY */
+    body.contact {
+        color:black;
+        background-color:white;
+        background-image:url(../../assets/images/background_Contact.jpg);
+        background-repeat: initial;
+        background-size: cover;
+        font-family: "Aachen BT";
+        padding: 0;
+        margin: 0;
+    }
+
+    section.header_title h1 {
+        margin: 0;
+        font-size: 90px;
+        text-align: center;
+        padding: 110px 0;
+        text-transform: uppercase;
+        color: rgb(226, 112, 6);
+        text-shadow: 3px 2px 16px rgb(0, 0, 0);
+    }
+
+    section iframe#Maps {
+        float: right;
+        margin-left: 100px;
+        margin-right: 100px;
+        /* margin-bottom: 100px; */
+        right: 0px;
+        top: 590px;
+        position: absolute;
+        /* margin-top: 600px; */
+    }
+    
+    section#rens p {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        font-size: 30px;
+        margin-top: 40px;
+        color: rgb(226, 112, 6);
+        text-shadow: 3px 2px 16px rgb(0, 0, 0);
+    }
+    
+    form#comm {
+        border-radius: 10px;
+        border-width: 6px;
+        border-style: double;
+        /* border-color: rgb(255, 0, 0); */
+        margin-left: 100px;
+        margin-right: 800px;
+        margin-top: 150px;
+        margin-bottom: 60px;
+        text-align: center;
+        padding: 10px 10px;
+        font-size: 20px;
+        color: rgb(226, 112, 6);
+        text-shadow: 3px 2px 16px rgb(0, 0, 0);
+    }
+
+
+/* FIN CONTACT */
 
 /* HEADER */
 
