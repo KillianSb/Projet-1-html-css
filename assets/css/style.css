@@ -1,11 +1,20 @@
 /* BODY */
 
-body {
+body.contact {
     color:black;
-    background-color:white;
-    background-image:url(assets/images/background_menus.png);
+    background-color:black;
+    background-image:url(background_menus.png);
     background-repeat: initial;
 }
 
 /* HEADER */
 
+a.logo {
+    margin: 0 auto;
+}
+
+/* TITRE */
+
+h1 {
+    color: white;
+}
