@@ -1,7 +1,7 @@
 /* CONTACT */
 
     /* BODY */
-    body {
+    body.contact {
         color:black;
         background-color:white;
         background-image:url(../../assets/images/background_menus.png);
@@ -10,7 +10,7 @@
         padding: 0;
         margin: 0;
     }
-    
+
 
 /* FIN CONTACT */
 
