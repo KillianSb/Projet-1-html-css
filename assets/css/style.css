@@ -5,6 +5,7 @@ body{
     margin: 0;
     font-family: "Aachen BT";
 }
+
 /* CONTACT */
 
     /* BODY */
@@ -70,6 +71,7 @@ body{
 
     button#submit {
         color:#E58F00;
+        text-shadow: 3px 2px 7px rgb(0, 0, 0);
     }
 
 
