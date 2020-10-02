@@ -6,6 +6,55 @@ body{
     font-family: "Aachen BT";
 }
 
+/* HEADER */
+    /* HEADER */
+
+    ul.rs {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        top: 80px;
+        right: 100px;
+    }
+    
+    ul.rs li {
+        display: inline-block;
+        margin: 0 10px;
+    }
+    
+    ul.rs li a,
+    ul.rs li a:visited {
+        font-size: 50px;
+    }
+    
+    ul.rs li a:hover,
+    ul.rs li a:focus {
+        color: #AE831D;
+    }
+
+    /* MENU */
+
+    ul.menu {
+        margin-bottom: 0;
+    }
+    
+    ul.menu > li {
+        display: inline-block;
+        position: relative;
+    }
+    
+    ul.menu li a:hover, ul.menu li a:focus {
+        color: darkgoldenrod
+    }
+    
+    ul.menu li:hover ul.niv_2 {
+        display: block;
+    }
+
+
+/* FIN HEADER */
+
 /* CONTACT */
 
     /* BODY */
