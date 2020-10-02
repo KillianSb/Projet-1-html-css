@@ -31,7 +31,6 @@ body{
         padding: 110px 0;
         text-transform: uppercase;
         color:#E58F00;
-        text-shadow: 3px 2px 16px rgb(0, 0, 0);
     }
 
     section iframe#Maps {
@@ -69,12 +68,12 @@ body{
         padding: 10px 10px;
         font-size: 20px;
         color:#E58F00;
-        text-shadow: 3px 2px 1px rgb(0, 0, 0);
     }
 
     button#submit {
-        color:#E58F00;
-        text-shadow: 3px 2px 7px rgb(0, 0, 0);
+        color:#28282d;
+        background-color: #E58F00;
+        border-radius: 5px;
     }
 
 
