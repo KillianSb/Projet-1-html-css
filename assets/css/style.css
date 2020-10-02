@@ -71,6 +71,16 @@ body{
         width: 80%;
     }
 
+    div.email input{
+        resize: none;
+        width: 20%;
+    }
+
+    div.message textarea{
+        resize: none;
+        width: 80%;
+    }
+
     button#submit {
         color:#28282d;
         background-color: #E58F00;

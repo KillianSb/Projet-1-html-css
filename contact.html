@@ -28,13 +28,17 @@
     action="https://formspree.io/xnqjnylo"
     method="POST"
     >
-    <label class="email">
+    <label>
         Votre email: <br />
-        <input type="text" name="_replyto"><br /><br />
+        <div class="email">
+            <input name="email" type="text" name="_replyto" required><br /><br />
+        </div>
     </label>
-    <label class="message">
+    <label>
         Votre message: <br />
-        <textarea name="message"></textarea><br /><br />
+        <div class="message">
+            <textarea name="message" wrap="hard" rows="10" required></textarea><br /><br />
+        </div>
     </label>
 
     <!-- your other form fields go here -->
