@@ -6,6 +6,55 @@ body{
     font-family: "Aachen BT";
 }
 
+/* HEADER */
+    /* HEADER */
+
+    ul.rs {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        top: 80px;
+        right: 100px;
+    }
+    
+    ul.rs li {
+        display: inline-block;
+        margin: 0 10px;
+    }
+    
+    ul.rs li a,
+    ul.rs li a:visited {
+        font-size: 50px;
+    }
+    
+    ul.rs li a:hover,
+    ul.rs li a:focus {
+        color: #E58F00;
+    }
+
+    /* MENU */
+
+    ul.menu {
+        margin-bottom: 0;
+    }
+    
+    ul.menu > li {
+        display: inline-block;
+        position: relative;
+    }
+    
+    ul.menu li a:hover, ul.menu li a:focus {
+        color: #E58F00
+    }
+    
+    ul.menu li:hover {
+        display: block;
+    }
+
+
+/* FIN HEADER */
+
 /* CONTACT */
 
     /* BODY */
@@ -59,8 +108,7 @@ body{
         border-width: 6px;
         background-color: rgba(0, 0, 0, 0.5);
         border-style: double;
-        /* border-color: rgb(255, 0, 0); */
-        margin-left: 100px;
+        margin-left: 250px;
         margin-right: 800px;
         margin-top: 150px;
         margin-bottom: 60px;
@@ -68,7 +116,7 @@ body{
         padding: 10px 10px;
         font-size: 20px;
         color:#E58F00;
-        width: 80%;
+        width: 60%;
     }
 
     div.email input{
@@ -85,6 +133,8 @@ body{
         color:#28282d;
         background-color: #E58F00;
         border-radius: 5px;
+        border: none;
+        font-size: 20px;
     }
 
 
@@ -95,37 +145,116 @@ body{
 
 /* HOME */
 
+.homepage{
+    background-color: #1d1d23;
+}
+
 .firstBlockHome{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
+    align-items: center;
     background: linear-gradient(
-        rgba(40, 40, 45, 0.9), 
-        rgba(40, 40, 45, 0.9)
+        rgba(40, 40, 45, 0.95), 
+        rgba(40, 40, 45, 0.95)
       ),
       url(../../assets/images/backgroundHome.png);
     background-size: cover;
 }
 
 .firstBlockHome img{
-    width: max-content;
-    height: max-content;
+    width: 845px;
+    height: 659px;
+    margin-left: 55px;
+    margin-right: 78px;
 }
 
 .firstBlockHome h2{
-    font-size: 64px;
+    font-size: 87px;
     color: #E58F00;
     font-weight: normal;
 }
 
 .firstBlockHome p{
-    font-size: 18px;
+    font-size: 33px;
     color: white;
 }
 
 .firstBlockHome .containerText{
-    max-width: 480px;
+    max-width: 686px;
 }
+
+.firstBlockHome a{
+    background-color: #E58F00;
+    color: #28282d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 33px;
+    border-radius: 5px;
+    height: 92px;
+    width: 264px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.firstBlockHome a:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #E58F00;
+    border-radius: 5px;
+    z-index: -2;
+}
+
+.firstBlockHome a:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #b57300;
+    transition: all .5s;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+
+.firstBlockHome a:hover:before {
+    width: 100%;
+}
+
+.secondBlockHome{
+    margin-top: 158px;
+    margin-left: 158px;
+    display: flex;
+    align-items: center;
+}
+
+.secondBlockHome img{
+    width: 853px;
+    height: 854px;
+}
+
+.secondBlockHome .containerText{
+    color: white;
+    margin-left: 63px;
+    max-width: 696px;
+}
+
+.secondBlockHome h2{
+    font-size: 66px;
+}
+
+.secondBlockHome p{
+    font-size: 44px;
+}
+
 /* MENU */
     /* BODY */
     .body_menu {
