@@ -88,33 +88,82 @@ body{
     width: 100%;
     height: 100vh;
     display: flex;
+    align-items: center;
     background: linear-gradient(
-        rgba(40, 40, 45, 0.9), 
-        rgba(40, 40, 45, 0.9)
+        rgba(40, 40, 45, 0.95), 
+        rgba(40, 40, 45, 0.95)
       ),
       url(../../assets/images/backgroundHome.png);
     background-size: cover;
 }
 
 .firstBlockHome img{
-    width: max-content;
-    height: max-content;
+    width: 626px;
+    height: 488px;
+    margin-left: 42px;
+    margin-right: 59px;
 }
 
 .firstBlockHome h2{
-    font-size: 64px;
+    font-size: 66px;
     color: #E58F00;
     font-weight: normal;
 }
 
 .firstBlockHome p{
-    font-size: 18px;
+    font-size: 25px;
     color: white;
 }
 
 .firstBlockHome .containerText{
-    max-width: 480px;
+    max-width: 520px;
 }
+
+.firstBlockHome a{
+    background-color: #E58F00;
+    color: #28282d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 5px;
+    height: 70px;
+    width: 200px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.firstBlockHome a:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #E58F00;
+    border-radius: 5px;
+    z-index: -2;
+}
+
+.firstBlockHome a:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #b57300;
+    transition: all .5s;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+
+.firstBlockHome a:hover:before {
+    width: 100%;
+}
+
 /* MENU */
     /* BODY */
     .body_menu {
