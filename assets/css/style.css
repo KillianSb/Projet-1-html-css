@@ -5,13 +5,18 @@ body{
     margin: 0;
     font-family: "Aachen BT";
 }
+
 /* CONTACT */
 
     /* BODY */
     body.contact {
         color:black;
         background-color:white;
-        background-image:url(../../assets/images/background_Contact.jpg);
+        background: linear-gradient(
+        rgba(40, 40, 45, 0.5), 
+        rgba(40, 40, 45, 0.5)
+        ),
+        url(../../assets/images/background_Contact.jpg);
         background-repeat: initial;
         background-size: cover;
         font-family: "Aachen BT";
@@ -26,16 +31,15 @@ body{
         padding: 110px 0;
         text-transform: uppercase;
         color:#E58F00;
-        text-shadow: 3px 2px 16px rgb(0, 0, 0);
     }
 
     section iframe#Maps {
         float: right;
         margin-left: 100px;
         margin-right: 100px;
-        /* margin-bottom: 100px; */
+        /* margin-bottom: 200px; */
         right: 0px;
-        top: 590px;
+        top: 350px;
         position: absolute;
         /* margin-top: 600px; */
     }
@@ -47,8 +51,7 @@ body{
         font-size: 45px;
         margin-top: 40px;
         margin-left: 170px;
-        color:#E58F00;
-        text-shadow: 3px 2px 1px rgb(0, 0, 0);
+        color:#ffffff;
     }
     
     form#comm {
@@ -65,11 +68,23 @@ body{
         padding: 10px 10px;
         font-size: 20px;
         color:#E58F00;
-        text-shadow: 3px 2px 1px rgb(0, 0, 0);
+        width: 80%;
+    }
+
+    div.email input{
+        resize: none;
+        width: 20%;
+    }
+
+    div.message textarea{
+        resize: none;
+        width: 80%;
     }
 
     button#submit {
-        color:#E58F00;
+        color:#28282d;
+        background-color: #E58F00;
+        border-radius: 5px;
     }
 
 
@@ -98,15 +113,19 @@ body{
 }
 
 .firstBlockHome h2{
-    font-size: 32px;
+    font-size: 64px;
     color: #E58F00;
+    font-weight: normal;
 }
 
 .firstBlockHome p{
-    font-size: 6px;
+    font-size: 18px;
     color: white;
 }
 
+.firstBlockHome .containerText{
+    max-width: 480px;
+}
 /* MENU */
     /* BODY */
     .body_menu {
