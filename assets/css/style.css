@@ -118,7 +118,7 @@ body{
         padding: 0%;
         }
     
-        .linear-gradient {
+    .linear-gradient {
         position: absolute;
         top: 0;
         left: 0;
@@ -126,5 +126,16 @@ body{
         width: 100%;
         background: linear-gradient(0deg, black, transparent);
         }
-    
+
+    .title_menu {
+        position:relative;
+        text-align: center;
+        margin-top: 30%;
+    }
+
+    .title_menu h1{
+        position: absolute;
+        top: 10px;
+        left: 920px;
+    }
     
