@@ -37,9 +37,9 @@ body{
         float: right;
         margin-left: 100px;
         margin-right: 100px;
-        /* margin-bottom: 100px; */
+        /* margin-bottom: 200px; */
         right: 0px;
-        top: 590px;
+        top: 350px;
         position: absolute;
         /* margin-top: 600px; */
     }
@@ -68,6 +68,7 @@ body{
         padding: 10px 10px;
         font-size: 20px;
         color:#E58F00;
+        width: 80%;
     }
 
     button#submit {
