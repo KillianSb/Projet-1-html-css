@@ -30,7 +30,7 @@ body{
     
     ul.rs li a:hover,
     ul.rs li a:focus {
-        color: #AE831D;
+        color: #E58F00;
     }
 
     /* MENU */
@@ -45,7 +45,7 @@ body{
     }
     
     ul.menu li a:hover, ul.menu li a:focus {
-        color: darkgoldenrod
+        color: #E58F00
     }
     
     ul.menu li:hover {
