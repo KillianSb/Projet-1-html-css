@@ -59,8 +59,7 @@ body{
         border-width: 6px;
         background-color: rgba(0, 0, 0, 0.5);
         border-style: double;
-        /* border-color: rgb(255, 0, 0); */
-        margin-left: 100px;
+        margin-left: 250px;
         margin-right: 800px;
         margin-top: 150px;
         margin-bottom: 60px;
@@ -68,7 +67,7 @@ body{
         padding: 10px 10px;
         font-size: 20px;
         color:#E58F00;
-        width: 80%;
+        width: 60%;
     }
 
     div.email input{
@@ -85,6 +84,7 @@ body{
         color:#28282d;
         background-color: #E58F00;
         border-radius: 5px;
+        border: none;
     }
 
 
