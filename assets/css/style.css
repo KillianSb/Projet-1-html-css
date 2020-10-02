@@ -48,7 +48,7 @@ body{
         color: darkgoldenrod
     }
     
-    ul.menu li:hover ul.niv_2 {
+    ul.menu li:hover {
         display: block;
     }
 
