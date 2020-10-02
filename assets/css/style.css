@@ -95,9 +95,13 @@ body{
 
 /* HOME */
 
+.homepage{
+    background-color: #1d1d23;
+}
+
 .firstBlockHome{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     background: linear-gradient(
@@ -109,25 +113,25 @@ body{
 }
 
 .firstBlockHome img{
-    width: 626px;
-    height: 488px;
-    margin-left: 42px;
-    margin-right: 59px;
+    width: 845px;
+    height: 659px;
+    margin-left: 55px;
+    margin-right: 78px;
 }
 
 .firstBlockHome h2{
-    font-size: 66px;
+    font-size: 87px;
     color: #E58F00;
     font-weight: normal;
 }
 
 .firstBlockHome p{
-    font-size: 25px;
+    font-size: 33px;
     color: white;
 }
 
 .firstBlockHome .containerText{
-    max-width: 520px;
+    max-width: 686px;
 }
 
 .firstBlockHome a{
@@ -137,10 +141,10 @@ body{
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 33px;
     border-radius: 5px;
-    height: 70px;
-    width: 200px;
+    height: 92px;
+    width: 264px;
     position: relative;
     overflow: hidden;
     z-index: 1;
@@ -173,6 +177,32 @@ body{
 
 .firstBlockHome a:hover:before {
     width: 100%;
+}
+
+.secondBlockHome{
+    margin-top: 158px;
+    margin-left: 158px;
+    display: flex;
+    align-items: center;
+}
+
+.secondBlockHome img{
+    width: 853px;
+    height: 854px;
+}
+
+.secondBlockHome .containerText{
+    color: white;
+    margin-left: 63px;
+    max-width: 696px;
+}
+
+.secondBlockHome h2{
+    font-size: 66px;
+}
+
+.secondBlockHome p{
+    font-size: 44px;
 }
 
 /* MENU */
