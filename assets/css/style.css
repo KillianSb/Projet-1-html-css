@@ -346,7 +346,17 @@ body{
 }
 
 .fourthBlockHome .galleryHome{
-    
+    margin-left: 70px;
+    margin-right: 70px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.galleryHome img{
+    margin: 23px;
+    height: 482px;
+    width: 407px;
 }
 
 /* MENU */
