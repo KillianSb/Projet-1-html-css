@@ -6,6 +6,34 @@ body{
     font-family: "Aachen BT";
 }
 
+/* HEADER */
+
+    header {
+        font-family: "Aachen BT";
+    }
+
+    /* MENU */
+
+    ul.menu {
+        margin-bottom: 0;
+    }
+    
+    ul.menu > li {
+        display: inline-block;
+        position: relative;
+    }
+    
+    ul.menu li a:hover, ul.menu li a:focus {
+        color: #E58F00
+    }
+    
+    ul.menu li:hover {
+        display: block;
+    }
+
+
+/* FIN HEADER */
+
 /* CONTACT */
 
     /* BODY */
@@ -89,6 +117,54 @@ body{
 
 
 /* FIN CONTACT */
+
+/* CONTACT */
+    /* BODY */
+    body.about {
+        color:black;
+        background-color:white;
+        background: linear-gradient(
+        rgba(40, 40, 45, 0.5), 
+        rgba(40, 40, 45, 0.5)
+        ),
+        url(../../assets/images/background_Contact.jpg);
+        background-repeat: initial;
+        background-size: cover;
+        font-family: "Aachen BT";
+        padding: 0;
+        margin: 0;
+    }
+
+    section.contact_title h1 {
+        margin: 0;
+        font-size: 90px;
+        text-align: center;
+        padding: 110px 0;
+        text-transform: uppercase;
+        color:#E58F00;
+    }
+
+    p#apropos-soul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        font-size: 45px;
+        margin-top: 40px;
+        margin-left: 170px;
+        color:#ffffff;
+        text-decoration: underline;
+    }
+
+    section.apropos p {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        font-size: 25px;
+        margin-top: 40px;
+        margin-left: 170px;
+        color:#ffffff;
+    }
+
 
 /* HEADER */
 
@@ -269,7 +345,9 @@ body{
     margin-bottom: 95px;
 }
 
-.fourthBlockHome .galleryHome{}
+.fourthBlockHome .galleryHome{
+    
+}
 
 /* MENU */
     /* BODY */
@@ -277,18 +355,40 @@ body{
         background-image:url(../../assets/images/background_menu.png);
         background-repeat:no-repeat;
         background-size: cover;
-        border: 4mm solid #f6ad1c;
+        background-position: center;
         margin: 0%;
         padding: 0%;
+        min-height: 100vh;
         }
     
-        .linear-gradient {
-        position: absolute;
+    .linear-gradient {
         top: 0;
         left: 0;
         height: 100%;
         width: 100%;
-        background: linear-gradient(0deg, black, transparent);
+        background: linear-gradient(180deg, black, rgba(0,0,0,0.1), black);
+        display: flex;
+        justify-content: center;
+        min-height: 300vh;
         }
-    
-    
+
+    .title_menu {
+        background-image:url(../../assets/images/En-tetes_menu.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 60px;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30%;
+        color: #ffffff;
+    }
+
+    .line_menu {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40%;
+    }
