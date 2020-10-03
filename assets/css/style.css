@@ -6,55 +6,6 @@ body{
     font-family: "Aachen BT";
 }
 
-/* HEADER */
-    /* HEADER */
-
-    ul.rs {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-        position: absolute;
-        top: 80px;
-        right: 100px;
-    }
-    
-    ul.rs li {
-        display: inline-block;
-        margin: 0 10px;
-    }
-    
-    ul.rs li a,
-    ul.rs li a:visited {
-        font-size: 50px;
-    }
-    
-    ul.rs li a:hover,
-    ul.rs li a:focus {
-        color: #AE831D;
-    }
-
-    /* MENU */
-
-    ul.menu {
-        margin-bottom: 0;
-    }
-    
-    ul.menu > li {
-        display: inline-block;
-        position: relative;
-    }
-    
-    ul.menu li a:hover, ul.menu li a:focus {
-        color: darkgoldenrod
-    }
-    
-    ul.menu li:hover {
-        display: block;
-    }
-
-
-/* FIN HEADER */
-
 /* CONTACT */
 
     /* BODY */
@@ -108,7 +59,8 @@ body{
         border-width: 6px;
         background-color: rgba(0, 0, 0, 0.5);
         border-style: double;
-        margin-left: 250px;
+        /* border-color: rgb(255, 0, 0); */
+        margin-left: 100px;
         margin-right: 800px;
         margin-top: 150px;
         margin-bottom: 60px;
@@ -116,7 +68,7 @@ body{
         padding: 10px 10px;
         font-size: 20px;
         color:#E58F00;
-        width: 60%;
+        width: 80%;
     }
 
     div.email input{
@@ -133,8 +85,6 @@ body{
         color:#28282d;
         background-color: #E58F00;
         border-radius: 5px;
-        border: none;
-        font-size: 20px;
     }
 
 
@@ -151,7 +101,7 @@ body{
 
 .firstBlockHome{
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     background: linear-gradient(
@@ -163,25 +113,27 @@ body{
 }
 
 .firstBlockHome img{
-    width: 845px;
-    height: 659px;
-    margin-left: 55px;
-    margin-right: 78px;
+    width: 626px;
+    height: 488px;
+    margin-left: 70px;
+    margin-right: 59px;
 }
 
 .firstBlockHome h2{
-    font-size: 87px;
+    font-size: 66px;
     color: #E58F00;
     font-weight: normal;
+    margin-top: 0;
 }
 
 .firstBlockHome p{
-    font-size: 33px;
+    font-size: 25px;
     color: white;
 }
 
 .firstBlockHome .containerText{
-    max-width: 686px;
+    max-width: 520px;
+    margin-right: 85px;
 }
 
 .firstBlockHome a{
@@ -191,10 +143,10 @@ body{
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    font-size: 33px;
+    font-size: 25px;
     border-radius: 5px;
-    height: 92px;
-    width: 264px;
+    height: 70px;
+    width: 200px;
     position: relative;
     overflow: hidden;
     z-index: 1;
@@ -230,30 +182,94 @@ body{
 }
 
 .secondBlockHome{
-    margin-top: 158px;
-    margin-left: 158px;
+    margin-top: 120px;
+    margin-left: 120px;
     display: flex;
-    align-items: center;
+
 }
 
-.secondBlockHome img{
-    width: 853px;
-    height: 854px;
-}
 
 .secondBlockHome .containerText{
     color: white;
-    margin-left: 63px;
-    max-width: 696px;
+    margin-left: 47px;
+    margin-right: 85px;
+}
+
+.secondBlockHome img{
+    width: 645px;
+    height: 646px;
 }
 
 .secondBlockHome h2{
-    font-size: 66px;
+    font-size: 50px;
 }
 
 .secondBlockHome p{
-    font-size: 44px;
+    font-size: 33px;
 }
+
+.thirdBlockHome{
+    margin-top: 208px;
+    position: relative;
+}
+
+.thirdBlockHome .shape{
+    width: 100%;
+    height: 1500px;
+}
+
+.thirdBlockHome .illutrationFirst{
+    position: absolute;
+    right: 0px;
+    top: -200px;
+    width: 450px;
+    height: auto;
+}
+
+.thirdBlockHome .illutrationSecond{
+    position: absolute;
+    top: 610px;
+    right: 0;
+    height: 950px;
+    width: auto;
+}
+
+.thirdBlockHome .illutrationThird{
+    position: absolute;
+    top: 950px;
+    left: 0;
+    height: 750px;
+    width: auto;
+}
+
+.thirdBlockHome .containerText{
+    color: white;
+    width: 550px;
+    position: absolute;
+    top: 200px;
+    margin-left: 200px;
+}
+
+.thirdBlockHome h2{
+    font-size: 50px;
+}
+
+.thirdBlockHome p{
+    font-size: 33px;
+}
+
+.fourthBlockHome{
+    margin-top: 350px;
+}
+
+.fourthBlockHome h2{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 95px;
+}
+
+.fourthBlockHome .galleryHome{}
 
 /* MENU */
     /* BODY */
