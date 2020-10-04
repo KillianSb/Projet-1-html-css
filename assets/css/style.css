@@ -379,6 +379,34 @@ body{
     width: 488px;
 }
 
+.fifthBlockHome{
+    margin-top: 180px;
+    background-image: url(../images/illustrationFifthBlock.png);
+    height: 960px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fifthBlockHome .containerText{
+    padding: 89px 100px 89px 100px;
+    border: 10px solid #e58f00;
+    color: white;
+    width: 528px;
+    background-color: rgba(29, 29, 35, 0.7);
+}
+
+.fifthBlockHome h2{
+    font-size: 50px;
+    text-align: center;
+}
+
+.fifthBlockHome p{
+    font-size: 33px;
+}
+
 /* MENU */
     /* BODY */
     .body_menu {
