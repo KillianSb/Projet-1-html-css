@@ -354,9 +354,29 @@ body{
 }
 
 .galleryHome img{
-    margin: 23px;
     height: 482px;
     width: 407px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.galleryHome .containerPicture{
+    background-color: black;
+    margin: 23px;
+    overflow: hidden;
+    height: 482px;
+    width: 407px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s ease-in-out;
+}
+
+.galleryHome img:hover{
+    transition: 0.5s ease-in-out;
+    opacity: 0.6;
+    height: 578px;
+    width: 488px;
 }
 
 /* MENU */
