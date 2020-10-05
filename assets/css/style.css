@@ -200,20 +200,51 @@ body{
         z-index: 1;
     }
 
-    div.texte_offre1 p {
+    div.texte_offre1 h2 {
         z-index: 2;
         position: absolute;
+        color: #E58F00;
+        margin: 12px;
+    }
+
+    div.texte_offre1 p {
+        z-index: 3;
+        position: relative;
+        color: white;
+        padding-top: 50px;
+        margin: 12px;
+    }
+
+    div.texte_offre2 h2 {
+        z-index: 2;
+        position: absolute;
+        color: #E58F00;
+        margin: 12px;
     }
 
     div.texte_offre2 p {
+        z-index: 3;
+        position: relative;
+        color: white;
+        padding-top: 50px;
+        margin: 12px;
+    }
+
+    div.texte_offre3 h2 {
         z-index: 2;
         position: absolute;
+        color: #E58F00;
+        margin: 12px;
     }
 
     div.texte_offre3 p {
-        z-index: 2;
-        position: absolute;
+        z-index: 3;
+        position: relative;
+        color: white;
+        padding-top: 50px;
+        margin: 12px;
     }
+
 
 
 /* FIN CONTACT */
