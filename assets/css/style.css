@@ -293,8 +293,8 @@ nav img{
 }
 
 .firstBlockHome img{
-    width: 626px;
-    height: 488px;
+    width: 800px;
+    height: auto;
     margin-left: 70px;
     margin-right: 59px;
 }
