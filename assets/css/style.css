@@ -144,15 +144,12 @@ body{
         color:#E58F00;
     }
 
-    p#offres-texte {
+    #h2offres {
         list-style-type: none;
-        padding: 0;
-        margin: 0;
         font-size: 45px;
-        margin-top: 40px;
-        margin-left: 170px;
         color:#ffffff;
         text-decoration: underline;
+        text-align: center;
     }
 
     section.offres-texte p {
@@ -194,7 +191,7 @@ body{
     #img3 {
         padding-left: 365px;
         padding-right: 365px;
-        margin-top: 50px;
+        margin-top: 65px;
         margin-left: 80px;
         margin-right: 80px;
         max-width: 100%;
@@ -203,8 +200,17 @@ body{
         z-index: 1;
     }
 
+    div.texte_offre1 p {
+        z-index: 2;
+        position: absolute;
+    }
 
     div.texte_offre2 p {
+        z-index: 2;
+        position: absolute;
+    }
+
+    div.texte_offre3 p {
         z-index: 2;
         position: absolute;
     }
