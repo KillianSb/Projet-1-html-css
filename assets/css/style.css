@@ -118,16 +118,16 @@ body{
 
 /* FIN CONTACT */
 
-/* CONTACT */
+/* OFFRES */
     /* BODY */
-    body.about {
+    body.offres {
         color:black;
         background-color:white;
         background: linear-gradient(
         rgba(40, 40, 45, 0.5), 
         rgba(40, 40, 45, 0.5)
         ),
-        url(../../assets/images/background_Contact.jpg);
+        url(../../assets/images/background_offres.jpg);
         background-repeat: initial;
         background-size: cover;
         font-family: "Aachen BT";
@@ -135,7 +135,7 @@ body{
         margin: 0;
     }
 
-    section.contact_title h1 {
+    section.offres_title h1 {
         margin: 0;
         font-size: 90px;
         text-align: center;
@@ -144,7 +144,7 @@ body{
         color:#E58F00;
     }
 
-    p#apropos-soul {
+    p#offres-texte {
         list-style-type: none;
         padding: 0;
         margin: 0;
@@ -155,7 +155,7 @@ body{
         text-decoration: underline;
     }
 
-    section.apropos p {
+    section.offres-texte p {
         list-style-type: none;
         padding: 0;
         margin: 0;
@@ -164,6 +164,54 @@ body{
         margin-left: 170px;
         color:#ffffff;
     }
+
+    #img1 {
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 50px;
+        margin-left: 60px;
+        margin-right: 10px;
+        display: inline-block;
+        max-width: 100%;
+        height: auto;
+        position: relative;
+        z-index: 1;
+    }
+
+    #img2 {
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 50px;
+        margin-left: 10px;
+        margin-right: 60px;
+        position: absolute;
+        display: inline-block;
+        max-width: 100%;
+        height: auto;
+        z-index: 1;
+    }
+
+    #img3 {
+        padding-left: 365px;
+        padding-right: 365px;
+        margin-top: 50px;
+        margin-left: 80px;
+        margin-right: 80px;
+        max-width: 100%;
+        height: auto;
+        position: relative;
+        z-index: 1;
+    }
+
+
+    div.texte_offre2 p {
+        z-index: 2;
+        position: absolute;
+    }
+
+
+/* FIN CONTACT */
+
 
 
 /* HEADER */
