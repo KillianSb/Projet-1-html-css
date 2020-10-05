@@ -8,28 +8,15 @@ body{
 
 /* HEADER */
 
-    header {
-        font-family: "Aachen BT";
-    }
+header {
+    font-family: "Aachen BT";
+}
 
     /* MENU */
 
-    ul.menu {
-        margin-bottom: 0;
-    }
-    
-    ul.menu > li {
-        display: inline-block;
-        position: relative;
-    }
-    
-    ul.menu li a:hover, ul.menu li a:focus {
-        color: #E58F00
-    }
-    
-    ul.menu li:hover {
-        display: block;
-    }
+.menu{
+    background-color: black;
+}
 
 
 /* FIN HEADER */
