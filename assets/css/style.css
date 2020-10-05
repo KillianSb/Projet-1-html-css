@@ -14,9 +14,40 @@ header {
 
     /* MENU */
 
-.menu{
-    background-color: black;
+nav{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    position: absolute;
+    width: 100%;
 }
+
+nav img{
+    width: 97px;
+    height: 80px;
+}
+
+.blockHeader{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    list-style: none;
+    align-items: center;
+    padding: 0px;
+}
+
+.blockHeader a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.blockHeader li a:hover{
+    color: #e9a438;
+}
+
+
 
 
 /* FIN HEADER */
@@ -109,7 +140,7 @@ header {
     /* BODY */
     body.offres {
         color:black;
-        background-color:white;
+        background-color: rgba(0, 0, 0, 0.5);
         background: linear-gradient(
         rgba(40, 40, 45, 0.5), 
         rgba(40, 40, 45, 0.5)
@@ -187,20 +218,51 @@ header {
         z-index: 1;
     }
 
-    div.texte_offre1 p {
+    div.texte_offre1 h2 {
         z-index: 2;
         position: absolute;
+        color: #E58F00;
+        margin: 12px;
+    }
+
+    div.texte_offre1 p {
+        z-index: 3;
+        position: relative;
+        color: white;
+        padding-top: 50px;
+        margin: 12px;
+    }
+
+    div.texte_offre2 h2 {
+        z-index: 2;
+        position: absolute;
+        color: #E58F00;
+        margin: 12px;
     }
 
     div.texte_offre2 p {
+        z-index: 3;
+        position: relative;
+        color: white;
+        padding-top: 50px;
+        margin: 12px;
+    }
+
+    div.texte_offre3 h2 {
         z-index: 2;
         position: absolute;
+        color: #E58F00;
+        margin: 12px;
     }
 
     div.texte_offre3 p {
-        z-index: 2;
-        position: absolute;
+        z-index: 3;
+        position: relative;
+        color: white;
+        padding-top: 50px;
+        margin: 12px;
     }
+
 
 
 /* FIN CONTACT */
@@ -227,6 +289,7 @@ header {
       ),
       url(../../assets/images/backgroundHome.png);
     background-size: cover;
+    padding-top: 50px;
 }
 
 .firstBlockHome img{
