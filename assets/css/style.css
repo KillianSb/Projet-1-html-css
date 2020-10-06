@@ -1,5 +1,9 @@
 /* BODY */
 
+@import url(//db.onlinewebfonts.com/c/2aa1694b8b55e93ebe3c8b8317b4eae9?family=Aachen+BT);
+
+@font-face {font-family: "Aachen BT"; src: url("//db.onlinewebfonts.com/t/2aa1694b8b55e93ebe3c8b8317b4eae9.eot"); src: url("//db.onlinewebfonts.com/t/2aa1694b8b55e93ebe3c8b8317b4eae9.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2aa1694b8b55e93ebe3c8b8317b4eae9.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2aa1694b8b55e93ebe3c8b8317b4eae9.woff") format("woff"), url("//db.onlinewebfonts.com/t/2aa1694b8b55e93ebe3c8b8317b4eae9.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2aa1694b8b55e93ebe3c8b8317b4eae9.svg#Aachen BT") format("svg"); } 
+
 body{
     padding: 0;
     margin: 0;
@@ -21,6 +25,7 @@ header {
     margin-top: 40px;
     position: absolute;
     width: 100%;
+    top: 0;
 }
 
 nav img{
@@ -88,6 +93,7 @@ nav img{
     text-decoration: none;
     font-weight: bold;
     margin: 0px 22px 0px 23px;
+    transition: 0.1s;
 }
 
 .logoRS{
@@ -105,87 +111,39 @@ nav img{
     margin: 0px 12px 0px 13px;
 }
 
+.blockFooter li a:hover{
+    color: #e9a438;
+    transition: 0.1s;
+}
+
+
 /* CONTACT */
 
-    /* BODY */
-    body.contact {
-        color:black;
-        background-color:white;
-        background: linear-gradient(
-        rgba(40, 40, 45, 0.5), 
-        rgba(40, 40, 45, 0.5)
-        ),
-        url(../../assets/images/background_Contact.jpg);
-        background-repeat: initial;
-        background-size: cover;
-        font-family: "Aachen BT";
-        padding: 0;
-        margin: 0;
-    }
+body.contact{
+    background-color: #1d1d23;
+}
 
-    section.header_title h1 {
-        margin: 0;
-        font-size: 90px;
-        text-align: center;
-        padding: 110px 0;
-        text-transform: uppercase;
-        color:#E58F00;
-    }
+ .containerBlockContact{
+     margin: 200px 100px 0px 100px;
+ }
 
-    section iframe#Maps {
-        float: right;
-        margin-left: 100px;
-        margin-right: 100px;
-        /* margin-bottom: 200px; */
-        right: 0px;
-        top: 350px;
-        position: absolute;
-        /* margin-top: 600px; */
-    }
-    
-    section#rens p {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-        font-size: 45px;
-        margin-top: 40px;
-        margin-left: 170px;
-        color:#ffffff;
-    }
-    
-    form#comm {
-        border-radius: 10px;
-        border-width: 6px;
-        background-color: rgba(0, 0, 0, 0.5);
-        border-style: double;
-        /* border-color: rgb(255, 0, 0); */
-        margin-left: 100px;
-        margin-right: 800px;
-        margin-top: 150px;
-        margin-bottom: 60px;
-        text-align: center;
-        padding: 10px 10px;
-        font-size: 20px;
-        color:#E58F00;
-        width: 80%;
-    }
+ .containerBlockContact h2{
+     color: #E58F00;
+ }
 
-    div.email input{
-        resize: none;
-        width: 20%;
-    }
+ .containerBlockContact .form{
+     width: 600px;
+ }
 
-    div.message textarea{
-        resize: none;
-        width: 80%;
-    }
+ .containerBlockContact form{
+     display: flex;
+     flex-direction: column;
+ }
 
-    button#submit {
-        color:#28282d;
-        background-color: #E58F00;
-        border-radius: 5px;
-    }
+ .containerBlockContact .form input, .containerBlockContact .form textarea{
+     color: white;
 
+ }
 
 /* FIN CONTACT */
 
@@ -318,8 +276,151 @@ nav img{
 
 
 
-/* FIN CONTACT */
+/* FIN OFFRES */
 
+
+/* GALLERY */
+    /* BODY */
+    body.gallery {
+        color:black;
+        background-color: rgba(0, 0, 0, 0.5);
+        background: linear-gradient(
+        rgba(40, 40, 45, 0.5), 
+        rgba(40, 40, 45, 0.5)
+        ),
+        url(../../assets/images/background_Gallery.jpg);
+        background-repeat: initial;
+        background-size: cover;
+        font-family: "Aachen BT";
+        position: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    section.gallery_title h1 {
+        margin: 0;
+        font-size: 90px;
+        text-align: center;
+        padding: 110px 0;
+        text-transform: uppercase;
+        color:#E58F00;
+    }
+
+    #h2gallery {
+        list-style-type: none;
+        font-size: 45px;
+        color:#ffffff;
+        text-decoration: underline;
+        text-align: center;
+    }
+
+    section.gallery-texte p {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        font-size: 25px;
+        margin-top: 40px;
+        margin-left: 170px;
+        color:#ffffff;
+    }
+
+    #img1-gallery {
+        width: 200px;
+        height: auto;
+        margin-left: 70px;
+        margin-right: 59px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    .gallery-photos .galleryPicture{
+        margin: 23px;
+        overflow: hidden;
+        display: inline-block;
+    }
+
+
+/* FIN GALLERY */
+
+
+/* BLOG */
+    /* BODY */
+    body.blog {
+        color:black;
+        background-color: rgba(0, 0, 0, 0.5);
+        background: linear-gradient(
+        rgba(40, 40, 45, 0.5), 
+        rgba(40, 40, 45, 0.5)
+        ),
+        url(../../assets/images/background_blog.jpg);
+        background-repeat: initial;
+        background-size: cover;
+        font-family: "Aachen BT";
+        position: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    section.blog_title h1 {
+        margin: 0;
+        font-size: 90px;
+        text-align: center;
+        padding: 110px 0;
+        text-transform: uppercase;
+        color:#E58F00;
+    }
+
+    #h2blog {
+        list-style-type: none;
+        font-size: 45px;
+        color:#ffffff;
+        text-decoration: underline;
+        text-align: center;
+    }
+
+    section.blog-texte p {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        font-size: 25px;
+        margin-top: 40px;
+        margin-left: 170px;
+        color:#ffffff;
+    }
+
+    section.image-blog img {
+        width: 500px;
+        height: auto;
+        margin-left: 505px;
+        margin-right: 500px;
+        position: center;
+        margin-top: 20px;
+        margin-bottom: 50px;
+
+    }
+
+    section.image-blog h2 {
+        width: 500px;
+        height: auto;
+        margin-left: 505px;
+        margin-right: 500px;
+        margin-top: 10px;
+        color:#E58F00;
+
+    }
+
+    section.image-blog p {
+        width: 500px;
+        height: auto;
+        margin-left: 505px;
+        margin-right: 500px;
+        margin-bottom: 80px;
+        margin-top: 10px;
+        color:white;
+
+    }
+
+/* FIN BLOG */
 
 
 /* HEADER */
