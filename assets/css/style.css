@@ -1,16 +1,37 @@
 /* BODY */
 
+@font-face {
+    font-family: 'aachen_btbold';
+    src: url('../font/aachenb-webfont.woff2') format('woff2'),
+         url('../font/aachenb-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aachen_btroman';
+    src: url('../font/aachenn-webfont.woff2') format('woff2'),
+         url('../font/aachenn-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 body{
     padding: 0;
     margin: 0;
-    font-family: "Aachen BT", 'Roboto', sans-serif;;
+    font-family: "aachen_btroman";
 }
 
 /* HEADER */
 
 header {
-    font-family: "Aachen BT", 'Roboto', sans-serif;;
+    font-family: "aachen_btroman";
 }
 
     /* MENU */
@@ -44,6 +65,7 @@ nav img{
     color: white;
     font-size: 16px;
     transition: 0.2s;
+    font-weight: normal;
 }
 
 .blockHeader li a:hover{
