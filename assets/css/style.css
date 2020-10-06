@@ -433,8 +433,8 @@ nav img{
     section.image-blog img {
         width: 500px;
         height: auto;
-        margin-left: 510px;
-        margin-right: 510px;
+        margin-left: 505px;
+        margin-right: 500px;
         position: center;
         margin-top: 20px;
         margin-bottom: 50px;
@@ -444,8 +444,8 @@ nav img{
     section.image-blog h2 {
         width: 500px;
         height: auto;
-        margin-left: 510px;
-        margin-right: 510px;
+        margin-left: 505px;
+        margin-right: 500px;
         margin-top: 10px;
         color:#E58F00;
 
@@ -454,8 +454,8 @@ nav img{
     section.image-blog p {
         width: 500px;
         height: auto;
-        margin-left: 510px;
-        margin-right: 510px;
+        margin-left: 505px;
+        margin-right: 500px;
         margin-bottom: 80px;
         margin-top: 10px;
         color:white;
