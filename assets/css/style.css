@@ -321,6 +321,68 @@ nav img{
 /* FIN CONTACT */
 
 
+/* OFFRES */
+    /* BODY */
+    body.gallery {
+        color:black;
+        background-color: rgba(0, 0, 0, 0.5);
+        background: linear-gradient(
+        rgba(40, 40, 45, 0.5), 
+        rgba(40, 40, 45, 0.5)
+        ),
+        url(../../assets/images/background_Gallery.jpg);
+        background-repeat: initial;
+        background-size: cover;
+        font-family: "Aachen BT";
+        padding: 0;
+        margin: 0;
+    }
+
+    section.gallery_title h1 {
+        margin: 0;
+        font-size: 90px;
+        text-align: center;
+        padding: 110px 0;
+        text-transform: uppercase;
+        color:#E58F00;
+    }
+
+    #h2gallery {
+        list-style-type: none;
+        font-size: 45px;
+        color:#ffffff;
+        text-decoration: underline;
+        text-align: center;
+    }
+
+    section.gallery-texte p {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        font-size: 25px;
+        margin-top: 40px;
+        margin-left: 170px;
+        color:#ffffff;
+    }
+
+    #img1-gallery {
+        width: 200px;
+        height: auto;
+        margin-left: 70px;
+        margin-right: 59px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    .gallery-photos .galleryPicture{
+        margin: 23px;
+        overflow: hidden;
+        display: inline-block;
+    }
+
+/* FIN CONTACT */
+
+
 
 /* HEADER */
 
