@@ -600,24 +600,58 @@ nav img{
         justify-content: center;
         min-height: 300vh;
         }
+    
+    .columns {
+        margin-top: 10%;
+        position: absolute;
+        left: 30px;
+        right: 30px;
+    }
+    
+    /* line left */
+    .line_left {
+        float: left;
+        width: 10%;
+        margin-right: 30px;
+        margin-top: 30%;
+    }
 
-    .title_menu {
+    .line_left img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* line right */
+    .line_right {
+        float: right;
+        width: 10%;
+        margin-left: 30px;
+        margin-top: 30%;
+    }
+
+    .line_right img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* bloc centre */
+    .bloc_centre {
+        overflow: visible;
+	    height: 1%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .bloc_centre .title_menu {
         background-image:url(../../assets/images/En-tetes_menu.png);
         background-size: 100%;
         background-repeat: no-repeat;
         height: 60px;
-        width: 200px;
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 30%;
         color: #ffffff;
-    }
-
-    .line_menu {
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 40%;
     }
