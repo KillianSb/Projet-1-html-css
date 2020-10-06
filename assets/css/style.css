@@ -88,6 +88,7 @@ nav img{
     text-decoration: none;
     font-weight: bold;
     margin: 0px 22px 0px 23px;
+    transition: 0.1s;
 }
 
 .logoRS{
@@ -104,6 +105,12 @@ nav img{
 .listRS li{
     margin: 0px 12px 0px 13px;
 }
+
+.blockFooter li a:hover{
+    color: #e9a438;
+    transition: 0.1s;
+}
+
 
 /* CONTACT */
 
