@@ -6,11 +6,40 @@
     <title>Home | FoodLover</title>
     <link rel="icon" type="image/jpg" href="assets/images/Food-lover.png">
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="assets/js/include.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
 </head>
 <body class="homepage">
-    <div w3-include-html="header.html"></div> 
+    <header>
+
+        <!-- menu -->
+        <nav class="header">
+        <!-- liste a puces -->
+            <ul class="blockHeader">
+                <li>
+                    <a href="index.html" title="Accueil"></i>HOME</a>
+                </li>
+                <li>
+                    <a href="about.html" title="Menu">ABOUT</a>
+                </li>
+                <li>
+                    <a href="menu.html" title="Menu">MENUS</a>
+                </li> 
+            </ul>
+            <a href="index.html" class="logo">
+                <img src="assets/images/Food-lover.png" alt="Image Header"/>
+            </a>
+            <ul class="blockHeader">
+                <li>
+                    <a href="">GALLERY</a>
+                </li>
+                <li>
+                    <a href="contact.html">CONTACT</a>
+                </li>
+                <li>
+                    <a href="">BLOG</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <div class="firstBlockHome">
         <img src="assets/images/breackfast.png" alt="Illustration contact us">
         <div class="containerText">
@@ -96,8 +125,5 @@
         </div>
     </div>
     <div w3-include-html="footer.html"></div> 
-    <script>
-        includeHTML()
-    </script>
 </body>
 </html>
