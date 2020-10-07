@@ -399,6 +399,63 @@ body.contact{
 /* FIN GALLERY */
 
 
+/* ABOUT */
+    /* BODY */
+    body.about {
+        color:black;
+        background-color: rgba(0, 0, 0, 0.5);
+        background: linear-gradient(
+        rgba(40, 40, 45, 0.5), 
+        rgba(40, 40, 45, 0.5)
+        ),
+        url(../../assets/images/background_about.jpg);
+        background-repeat: initial;
+        background-size: cover;
+        font-family: "Aachen BT";
+        position: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    section.about_title h1 {
+        margin: 0;
+        font-size: 90px;
+        text-align: center;
+        padding: 110px 0;
+        text-transform: uppercase;
+        color:#E58F00;
+    }
+
+    #h2-about {
+        list-style-type: none;
+        font-size: 45px;
+        color:#ffffff;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    section.about-texte p {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        font-size: 25px;
+        margin-top: 40px;
+        color:#ffffff;
+    }
+
+    section.video-about iframe{
+        margin-left: 479px;
+        margin-right: 479px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        width: 560px; 
+        height: 315px;
+    }
+
+/* FIN ABOUT */
+
+
 /* BLOG */
     /* BODY */
     body.blog {
@@ -476,7 +533,7 @@ body.contact{
 
     }
 
-/* FIN BLOG */
+/* FIN ABOUT */
 
 
 /* HEADER */
