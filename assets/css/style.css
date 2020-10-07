@@ -54,10 +54,17 @@ nav img{
 .blockHeader{
     display: flex;
     justify-content: space-around;
-    width: 20%;
     list-style: none;
     align-items: center;
     padding: 0px;
+}
+
+.blockHeader.left{
+    width: 23%;
+}
+
+.blockHeader.right{
+    width: 23%;
 }
 
 .blockHeader a{
