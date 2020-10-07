@@ -876,7 +876,7 @@ body.contact{
     .linear-gradient {
         top: 0;
         left: 0;
-        height: 1900px;
+        height: 1950px;
         width: 100%;
         background: linear-gradient(180deg, black, rgba(0,0,0,0.1), black);
         display: flex;
