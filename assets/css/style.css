@@ -957,3 +957,7 @@ body.contact{
     .title_category {
         margin-bottom: 0px;
     }
+
+    .product {
+        font-weight: normal;
+    }
