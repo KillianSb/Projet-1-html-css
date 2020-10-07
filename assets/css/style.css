@@ -143,11 +143,20 @@ body.contact{
 }
 
  .containerBlockContact{
-     margin: 200px 100px 0px 100px;
+     margin: 200px 10% 0px 10%;
+     display: flex;
+     justify-content: space-between;
  }
 
  .containerBlockContact h2{
      color: #E58F00;
+     font-size: 33px;
+ }
+
+ .containerBlockContact p{
+     color: white;
+     font-weight: normal;
+     font-size: 20px;
  }
 
  .containerBlockContact .form{
@@ -199,6 +208,7 @@ body.contact{
      text-transform: uppercase;
      background-color: #e58f00;
      padding-left: 0px;
+     font-weight: bold;
  }
 
 /* FIN CONTACT */
