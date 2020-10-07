@@ -198,17 +198,18 @@ body.contact{
 
  .containerBlockContact .form input::placeholder, .containerBlockContact .form textarea::placeholder{
      color: white;
-     font-family: "arial";
+     font-family: "Montserrat";
      font-size: 14px;
  }
 
  .containerBlockContact .form input[type=submit]{
-     width: 100px;
-     height: 40px;
+     width: 120px;
+     height: 50px;
      text-transform: uppercase;
      background-color: #e58f00;
      padding-left: 0px;
      font-weight: bold;
+     font-family: "Montserrat";
  }
 
 /* FIN CONTACT */
