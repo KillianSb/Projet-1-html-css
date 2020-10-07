@@ -83,7 +83,7 @@ nav img{
 .footer{
     height: 436px;
     width: 100%;
-    font-family: "Montserrat";
+    font-family: 'Montserrat', sans-serif;
     background-color: #35353b;
 }
 
