@@ -389,12 +389,12 @@ body.contact{
         color:#E58F00;
     }
 
-    #h2about {
+    #h2-about {
         list-style-type: none;
         font-size: 45px;
         color:#ffffff;
-        text-decoration: underline;
         text-align: center;
+        text-decoration: underline;
     }
 
     section.about-texte p {
