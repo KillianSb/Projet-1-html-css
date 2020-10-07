@@ -463,6 +463,14 @@ body.contact{
         height: 315px;
     }
 
+    #h3-about {
+        list-style-type: none;
+        font-size: 30px;
+        color:#ffffff;
+        text-align: center;
+        color:#E58F00;
+    }
+
 /* FIN ABOUT */
 
 
