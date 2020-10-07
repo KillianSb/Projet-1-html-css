@@ -401,10 +401,19 @@ body.contact{
         list-style-type: none;
         padding: 0;
         margin: 0;
+        text-align: center;
         font-size: 25px;
         margin-top: 40px;
-        margin-left: 170px;
         color:#ffffff;
+    }
+
+    section.video-about iframe{
+        margin-left: 479px;
+        margin-right: 479px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        width: 560px; 
+        height: 315px;
     }
 
 /* FIN ABOUT */
