@@ -151,7 +151,7 @@ body.contact{
  }
 
  .containerBlockContact .form{
-     width: 600px;
+     width: 500px;
  }
 
  .containerBlockContact form{
@@ -159,9 +159,46 @@ body.contact{
      flex-direction: column;
  }
 
+ .containerBlockContact .form input{
+     height: 30px;
+ }
+
+ .containerBlockContact .containerFirstLine{
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .containerBlockContact .containerFirstLine input{
+     width: 45%;
+ }
+
  .containerBlockContact .form input, .containerBlockContact .form textarea{
      color: white;
+    background-color: #7c778e;
+    border: none;
+    border-radius: 7px;
+    padding: 5px;
+    margin-bottom: 13px;
+    padding-left: 15px;
+ }
 
+ .containerBlockContact .form textarea{
+     padding-top: 10px;
+     resize: none;
+ }
+
+ .containerBlockContact .form input::placeholder, .containerBlockContact .form textarea::placeholder{
+     color: white;
+     font-family: "arial";
+     font-size: 14px;
+ }
+
+ .containerBlockContact .form input[type=submit]{
+     width: 100px;
+     height: 40px;
+     text-transform: uppercase;
+     background-color: #e58f00;
+     padding-left: 0px;
  }
 
 /* FIN CONTACT */
