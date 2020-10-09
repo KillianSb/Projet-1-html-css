@@ -297,7 +297,7 @@ body.contact{
     display: flex;
 }
 
-.firstBlockAbout img{
+.firstBlockAbout video{
     height: auto;
     width: 50%;
 }
