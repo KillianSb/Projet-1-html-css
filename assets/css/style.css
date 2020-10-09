@@ -356,7 +356,7 @@ body.contact{
     transition:1s
     }
 
-    .caroussel img{filter:blur(3px);opacity:.8}
+    /* .caroussel img{filter:blur(3px);opacity:.8} */
     .caroussel img:nth-child(1){transform:translate3d(0,0,540px) scale(.8)}
     .caroussel img:nth-child(2){transform:rotateY(45deg) translateZ(540px) scale(.8)}
     .caroussel img:nth-child(3){transform:rotateY(90deg) translateZ(540px) scale(.8)}
@@ -453,7 +453,7 @@ body.contact{
     transition:1s
     }
 
-    .caroussel2 img{filter:blur(3px);opacity:.8}
+    /* .caroussel2 img{filter:blur(3px);opacity:.8} */
     .caroussel2 img:nth-child(1){transform:translate3d(0,0,540px) scale(.8)}
     .caroussel2 img:nth-child(2){transform:rotateY(45deg) translateZ(540px) scale(.8)}
     .caroussel2 img:nth-child(3){transform:rotateY(90deg) translateZ(540px) scale(.8)}
