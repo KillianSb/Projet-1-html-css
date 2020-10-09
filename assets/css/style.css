@@ -328,6 +328,8 @@ body.contact{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: justify;
+    
 }
 
 .aboutText h2{
