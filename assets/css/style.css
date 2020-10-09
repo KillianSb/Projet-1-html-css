@@ -280,6 +280,8 @@ body.contact{
         margin: 23px;
         overflow: hidden;
         display: inline-block;
+        height: auto;
+        width: 30%;
     }
 
 
