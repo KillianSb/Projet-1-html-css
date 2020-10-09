@@ -698,8 +698,8 @@ body.contact{
     .columns {
         margin-top: 15%;
         position: absolute;
-        left: 100px;
-        right: 100px;
+        left: 10%;
+        right: 10%;
     }
     
     /* line left */
@@ -771,3 +771,10 @@ body.contact{
     .product {
         font-weight: normal;
     }
+
+    /* Responsive */
+    @media screen and (min-width: 1000px) {
+
+    }
+
+
