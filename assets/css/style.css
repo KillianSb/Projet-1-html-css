@@ -40,7 +40,7 @@ header {
     background-color: transparent;
     display: flex;
     justify-content: space-around;
-    margin-top: 40px;
+    margin-top: 30px;
     position: absolute;
     width: 100%;
     top: 0;
@@ -88,7 +88,7 @@ nav img{
 /* FOOTER */
 
 .footer{
-    height: 370px;
+    height: 350px;
     width: 100%;
     font-family: 'Montserrat', sans-serif;
     background-color: #35353b;
@@ -97,7 +97,7 @@ nav img{
 .logoFooter{
     width: 381px;
     height: auto;
-    padding-top: 50px;
+    padding-top: 30px;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -240,18 +240,31 @@ body.contact{
         margin: 0;
     }
 
-    section.gallery_title h1 {
-        margin: 0;
-        font-size: 90px;
+    #h2gallery1 {
+        padding-top: 200px;
+        padding-bottom: 50px;
+        list-style-type: none;
+        font-size: 30px;
+        color:#ffffff;
+        text-decoration: underline;
         text-align: center;
-        padding: 110px 0;
-        text-transform: uppercase;
-        color:#E58F00;
     }
 
-    #h2gallery {
+    #h2gallery2 {
+        padding-top: 200px;
+        padding-bottom: 50px;
         list-style-type: none;
-        font-size: 45px;
+        font-size: 30px;
+        color:#ffffff;
+        text-decoration: underline;
+        text-align: center;
+    }
+
+    #h2gallery3 {
+        padding-top: 200px;
+        padding-bottom: 50px;
+        list-style-type: none;
+        font-size: 30px;
         color:#ffffff;
         text-decoration: underline;
         text-align: center;
@@ -277,13 +290,14 @@ body.contact{
     }
 
     .gallery-photos .galleryPicture{
-        margin: 23px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
         overflow: hidden;
-        display: inline-block;
         height: auto;
-        width: 30%;
+        width: 40%;
     }
-
 
 /* FIN GALLERY */
 
@@ -292,7 +306,7 @@ body.contact{
 
 .about{
     background-color: #1d1d23;
-    padding-top: 150px;
+    padding-top: 130px;
 }
 
 .firstBlockAbout{
