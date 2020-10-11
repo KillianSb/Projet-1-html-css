@@ -178,7 +178,7 @@ body.contact{
  }
 
  .containerBlockContact .form input{
-     height: 30px;
+     height: 40px;
  }
 
  .containerBlockContact .containerFirstLine{
@@ -228,57 +228,29 @@ body.contact{
     /* BODY */
     body.gallery {
         color:black;
-        background-color: rgba(0, 0, 0, 0.5);
-        background: linear-gradient(
-        rgba(40, 40, 45, 0.5), 
-        rgba(40, 40, 45, 0.5)
-        ),
-        url(../../assets/images/background_Gallery.jpg);
-        background-repeat: initial;
-        background-size: cover;
+        background-color: #151418;
         font-family: "Aachen BT";
         position: center;
         padding: 0;
         margin: 0;
     }
 
-    #h2gallery1 {
-        padding-top: 200px;
-        padding-bottom: 50px;
-        list-style-type: none;
-        font-size: 30px;
-        color:#e58f00;
-        text-decoration: underline;
+    .gallery-photos{
+        margin-top: 200px;
+    }
+
+    .gallery-photos h2{
+        font-size: 33px;
+        color: #e58f00;
         text-align: center;
     }
 
-    #h2gallery2 {
-        padding-top: 50px;
-        padding-bottom: 50px;
-        list-style-type: none;
-        font-size: 30px;
-        color:#e58f00;
-        text-decoration: underline;
+    .gallery-photos p{
+        font-size: 16px;
+        color: #ffffff;
         text-align: center;
-    }
-
-    #h2gallery3 {
-        padding-top: 50px;
-        padding-bottom: 50px;
-        list-style-type: none;
-        font-size: 30px;
-        color:#e58f00;
-        text-decoration: underline;
-        text-align: center;
-    }
-
-    section.gallery-photos p {
-        padding: 0;
-        font-size: 25px;
-        text-align: center;
-        margin-right: auto;
-        margin-left: auto;
-        color:#ffffff;
+        font-weight: normal;
+        font-family: "Montserrat";
     }
 
     #img1-gallery {
@@ -583,7 +555,7 @@ body.contact{
 
 .firstBlockHome{
     width: 100%;
-    min-height: 100vh;
+    height: 1000pxgit;
     display: flex;
     align-items: center;
     background: linear-gradient(
