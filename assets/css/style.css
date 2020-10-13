@@ -59,12 +59,14 @@ nav img{
     padding: 0px;
 }
 
-.blockHeader.left{
+.blockHeader{
     width: 23%;
 }
 
-.blockHeader.right{
-    width: 23%;
+.icon{
+    color: white;
+    font-size: 40px;
+    display: none;
 }
 
 .blockHeader a{
@@ -80,8 +82,80 @@ nav img{
     transition: 0.1s;
 }
 
+@media screen and (max-width: 1250px) { 
+    .header a{
+        font-size: 13px;
+    }
+
+    .blockHeader{
+        width: 35%;
+    }
+  } 
+
+  @media screen and (max-width: 900px) { 
+    nav img{
+        scale: 0.8;
+    }
+
+    .header{
+        margin-top: 10px;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .header ul:not(:nth-child(2)) {
+        display: none;
+        transition: 0.5s all ease;
+    }
+
+    .icon{
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 20px;
+    }
+
+    .header a img{
+        position: absolute;
+        left: 0px;
+        top: 0;
+    }
+
+    .icon i{
+        font-size: 30px;
+    }
+
+    .header.responsive{
+        flex-direction: column;
+        position: relative;
+        padding-top: 80px;
+        padding-bottom: 20px;
+        align-items: center;
+        justify-content: center;
+        transition: 0.5s all ease;
+    }
+
+    .header.header.responsive ul li{
+        text-align: center;
+        width: 90%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-bottom: solid 1px white;
+    }
 
 
+    .header.responsive .blockHeader{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+
+    }
+
+    .header.responsive a{
+        font-family: "Montserrat";
+        font-weight: bold;
+    }
+  } 
 
 /* FIN HEADER */
 
@@ -555,7 +629,7 @@ body.contact{
 
 .firstBlockHome{
     width: 100%;
-    height: 1000pxgit;
+    height: 1000px;
     display: flex;
     align-items: center;
     background: linear-gradient(
@@ -769,16 +843,18 @@ body.contact{
 }
 
 .fifthBlockHome .containerText{
-    padding: 89px 100px 89px 100px;
+    padding: 70px 100px 89px 100px;
     border: 10px solid #e58f00;
     color: white;
-    width: 528px;
+    width: 726px;
+    height: 574px;
     background-color: rgba(29, 29, 35, 0.7);
 }
 
 .fifthBlockHome h2{
     font-size: 50px;
     text-align: center;
+    margin-top: 0px;
 }
 
 .fifthBlockHome p{

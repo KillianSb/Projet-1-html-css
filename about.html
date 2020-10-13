@@ -4,6 +4,8 @@
         <title>A propos | FoodLover</title>
         <link rel="icon" type="image/jpg" href="assets/images/Food-lover.png">
         <link rel="stylesheet" href="assets/css/style.css"></link>
+        <script src="https://kit.fontawesome.com/836a2159df.js" crossorigin="anonymous"></script>
+        <script src="assets/js/include.js"></script>
     </head>
 
     <!-- Corp du HTML -->
@@ -11,9 +13,9 @@
         <header>
 
             <!-- menu -->
-            <nav class="header">
+            <nav class="header" id="header">
             <!-- liste a puces -->
-                <ul class="blockHeader left">
+                <ul class="blockHeader" id="blockHeaderLeft">
                     <li>
                         <a href="index.html" title="Accueil"></i>ACCUEIL</a>
                     </li>
@@ -24,7 +26,7 @@
                 <a href="index.html" class="logo">
                     <img src="assets/images/Food-lover.png" alt="Image Header"/>
                 </a>
-                <ul class="blockHeader right">
+                <ul class="blockHeader" id="blockHeaderRight">
                     <li>
                         <a href="gallery.html">GALLERIE</a>
                     </li>
@@ -35,6 +37,9 @@
                         <a href="about.html" title="Menu">A PROPOS</a>
                     </li>
                 </ul>
+                <a href="javascript:void(0);" class="icon" onclick="displayMenu()">
+                    <i class="fa fa-bars"></i>
+                </a>
             </nav>
         </header>
     <!-- section Text -->
