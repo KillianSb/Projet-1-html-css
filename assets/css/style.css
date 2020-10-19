@@ -90,8 +90,21 @@ nav img{
     .blockHeader{
         width: 35%;
     }
-  } 
 
+    .firstBlockHome .containerText h2{
+        font-size: 45px;
+    }
+    .firstBlockHome .containerText p{
+        font-size: 20px;
+    } 
+
+    .firstBlockHome .containerText a{
+        height: 50px;
+        width: 150px;
+        font-size: 20px;
+    }
+
+}
   @media screen and (max-width: 900px) { 
     nav img{
         scale: 0.8;
@@ -102,7 +115,12 @@ nav img{
     }
   }
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 900px) {
+
+    .header{
+        background-color: #1d1d23;
+    }
+
     .header ul:not(:nth-child(2)) {
         display: none;
         transition: 0.5s all ease;
@@ -129,7 +147,8 @@ nav img{
         flex-direction: column;
         position: relative;
         padding-top: 80px;
-        padding-bottom: 20px;
+        margin-top: 0;
+        padding-bottom: 40px;
         align-items: center;
         justify-content: center;
         transition: 0.5s all ease;
@@ -155,7 +174,46 @@ nav img{
         font-family: "Montserrat";
         font-weight: bold;
     }
+
+    .firstBlockHome img{
+        display: none;
+    }
+
+    .firstBlockHome{
+        background: #1d1d23 !important;
+        height: 600px !important;
+        justify-content: center;
+    }
+
+    .firstBlockHome .containerText{
+        margin-right: 0px !important;
+    }
   } 
+
+  @media screen and (max-width: 600px) {
+    .firstBlockHome .containerText h2{
+        font-size: 40px;
+    }
+
+    .firstBlockHome .containerText p{
+        font-size: 17px;
+    }
+
+    .firstBlockHome .containerText a{
+        margin-top: 15px;
+    }
+
+    .firstBlockHome .containerText{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .firstBlockHome{
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+  }
 
 /* FIN HEADER */
 
@@ -925,6 +983,110 @@ body.contact{
     color: white;
     font-size: 33px;
     max-width: 700px;
+}
+
+@media screen and (max-width: 1400px){
+    .thirdBlockHome .illutrationFirst{
+        width: 350px;
+        top: 0px;
+    }
+
+    .thirdBlockHome .illutrationSecond{
+        height: 800px;
+        top: 700px;
+    }
+
+    .thirdBlockHome .illutrationThird{
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 1250px){
+    .secondBlockHome img{
+        width: 400px;
+        height: 400px;
+    }
+
+    .secondBlockHome h2{
+        font-size: 40px;
+    }
+
+    .secondBlockHome p{
+        font-size: 25px;
+    }
+
+    .thirdBlockHome .containerText{
+        margin-left: 100px;
+    }
+
+    .thirdBlockHome .illutrationSecond{
+        height: 700px;
+    }
+
+    .thirdBlockHome .illutrationThird{
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 1100px){
+
+    .thirdBlockHome{
+        background-color: #e58f00;
+        height: 800px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .thirdBlockHome img{
+        display: none;
+    }
+
+    .thirdBlockHome .containerText{
+        position: relative;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 900px){
+
+    .secondBlockHome{
+        margin-left: 60px;
+    }
+
+    .secondBlockHome img{
+        height: 300px;
+        width: 300px;
+    }
+
+    .secondBlockHome h2{
+        font-size: 30px;
+    }
+
+    .secondBlockHome p{
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 700px){
+
+    .secondBlockHome{
+        margin-left: 0px;
+        margin-top: 60px;
+    }
+
+    .secondBlockHome img{
+        display: none;
+    }
+
+    .secondBlockHome .containerText{
+        margin: 0px 50px 0px 50px;
+    }
+
+    .secondBlockHome p{
+        font-size: 17px;
+    }
+
 }
 
 
