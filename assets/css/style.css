@@ -999,6 +999,24 @@ body.contact{
     .thirdBlockHome .illutrationThird{
         height: 600px;
     }
+
+    .seventhBlockHome{
+        height: 400px;
+    }
+
+    .seventhBlockHome img{
+        height: 500px;
+        width: 500px;
+    }
+
+    .seventhBlockHome h2{
+        font-size: 40px;
+    }
+
+    .seventhBlockHome p{
+        font-size: 25px;
+        padding-right: 20px;
+    }
 }
 
 @media screen and (max-width: 1250px){
@@ -1026,6 +1044,15 @@ body.contact{
     .thirdBlockHome .illutrationThird{
         height: 500px;
     }
+
+    .seventhBlockHome img{
+        height: 400px;
+        width: 400px;
+    }
+
+    .seventhBlockHome{
+        height: 350px;
+    }
 }
 
 @media screen and (max-width: 1100px){
@@ -1035,6 +1062,7 @@ body.contact{
         height: 800px;
         display: flex;
         justify-content: center;
+        align-items: center;
     }
 
     .thirdBlockHome img{
@@ -1042,8 +1070,18 @@ body.contact{
     }
 
     .thirdBlockHome .containerText{
-        position: relative;
+        position: static;
         margin-left: 0px;
+    }
+}
+
+@media screen and (max-width : 1007px){
+    .sixthBlockHome .containerBlockMenu{
+        justify-content: center;
+    }
+
+    .sixthBlockHome .containerBlockMenu .blockMenuHome{
+        margin-top: 50px;
     }
 }
 
@@ -1064,6 +1102,42 @@ body.contact{
 
     .secondBlockHome p{
         font-size: 20px;
+    }
+
+    .fifthBlockHome{
+        height: 700px;
+    }
+
+    .fifthBlockHome .containerText{
+        width: 605px;
+        height: 478px;
+        padding: 50px;
+    }
+
+    .fifthBlockHome h2{
+        font-size: 50px;
+    }
+
+    .fifthBlockHome p{
+        font-size: 25px;
+    }
+
+    .seventhBlockHome img{
+        margin-right: 75px;
+        height: 300px;
+        width: 300px;
+    }
+
+    .seventhBlockHome{
+        height: 250px;
+    }
+
+    .seventhBlockHome h2{
+        font-size: 25px;
+    }
+
+    .seventhBlockHome p{
+        font-size: 22px;
     }
 
 }
@@ -1087,6 +1161,134 @@ body.contact{
         font-size: 17px;
     }
 
+    .thirdBlockHome{
+        height: 500px;
+    }
+
+    .thirdBlockHome h2{
+        font-size: 30px;
+    }
+
+    .thirdBlockHome p{
+        font-size: 20px;
+    }
+
+    .thirdBlockHome .containerText{
+        margin: 0px 50px 0px 50px;
+    }
+
+    .fourthBlockHome .galleryHome{
+        margin: 0px 40px 0px 40px;
+    }
+
+    .fifthBlockHome{
+        height: 700px;
+    }
+
+    .fifthBlockHome .containerText{
+        width: 80%;
+        height: auto;
+        padding: 50px;
+    }
+
+    .fifthBlockHome h2{
+        font-size: 35px;
+        margin-bottom: 25px;
+    }
+
+    .fifthBlockHome p{
+        font-size: 18px;
+    }
+
+    .seventhBlockHome h2{
+        font-size: 27px;
+    }
+
+    .seventhBlockHome p{
+        font-size: 17px;
+    }
+
+    .seventhBlockHome img{
+        height: 200px;
+        width: 200px;
+    }
+
+    .seventhBlockHome{
+        height: 170px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .fourthBlockHome .galleryHome img, .fourthBlockHome .galleryHome .containerPicture{
+        height: 282px;
+        width: 235px;
+    }
+
+    .fourthBlockHome .galleryHome{
+        margin: 0px 20px 0px 20px;
+    }
+
+    .sixthBlockHome{
+        margin-top: 70px;
+    }
+
+    .sixthBlockHome h2{
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+
+    .sixthBlockHome .containerBlockMenu .blockMenuHome h3{
+        font-size: 20px;
+    }
+
+    .sixthBlockHome .containerBlockMenu .blockMenuHome p{
+        font-size: 15px;
+    }
+
+    .sixthBlockHome .containerBlockMenu .blockMenuHome .price{
+        font-size: 20px;
+    }
+
+    .seventhBlockHome{
+        margin-top: 100px;
+    }
+
+    .seventhBlockHome h2{
+        font-size: 20px;
+    }
+
+    .seventhBlockHome p{
+        font-size: 15px;
+    }
+
+    .seventhBlockHome img{
+        margin-right: 40px;
+        height: 200px;
+        width: 130px;
+        object-fit: cover;
+        object-position: 100% 50%;
+        margin-right: 20px;
+
+    }
+}
+
+@media screen and (max-width : 500px){
+
+    .fifthBlockHome .containerText{
+        padding: 30px;
+    }
+
+    .fifthBlockHome h2{
+        font-size: 25px;
+    }
+
+    .fifthBlockHome p{
+        font-size: 20px;
+    }
+
+    .sixthBlockHome{
+        padding: 0px 25px 0px 25px;
+    }
 }
 
 
