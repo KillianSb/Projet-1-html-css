@@ -353,14 +353,13 @@ body.contact{
      font-family: "Montserrat";
  }
 
- div.blockInformation {
+ .blockInformation {
     padding-left: 80px;
  }
 
  @media screen and (max-width: 600px) {
-    div.blockInformation {
+    .blockInformation {
         font-size: 20px;
-        display: inline-block;
      }
  }
 
