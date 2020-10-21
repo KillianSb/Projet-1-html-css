@@ -135,8 +135,9 @@ nav img{
 
     .header a img{
         position: absolute;
-        left: 0px;
+        left: 0;
         top: 0;
+        bottom: 15px;
     }
 
     .icon i{
@@ -357,10 +358,32 @@ body.contact{
     padding-left: 80px;
  }
 
+ @media screen and (max-width: 1076px) {
+    .blockInformation {
+        font-size: 20px;
+        padding: 0px;
+        text-align: center;
+    }
+
+    .containerBlockContact{
+        margin: 200px 10% 5% 10%;
+        justify-content: space-between;
+        flex-direction: column;
+        text-align: center;
+    }
+ }
+
  @media screen and (max-width: 600px) {
     .blockInformation {
         font-size: 20px;
-     }
+        padding: 0px;
+    }
+
+    .containerBlockContact{
+        margin: 200px 10% 5% 10%;
+        justify-content: space-between;
+        flex-direction: column;
+    }
  }
 
 /* FIN CONTACT */
