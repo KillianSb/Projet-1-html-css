@@ -1438,8 +1438,23 @@ body.contact{
     }
 
     /* Responsive */
-    @media screen and (min-width: 1000px) {
-
+    @media screen and (max-width: 800px) {
+        .columns {
+            left: 0%;
+            right: 0%;
+        }
     }
 
+    @media screen and (max-width: 550px){
+        .columns {
+            margin-top: 30%;
+        }
+    }
+
+    @media screen and (max-width: 400px){
+        .columns {
+            margin-top: 40%;
+            font-size: 12px;
+        }
+    }
 
