@@ -468,7 +468,9 @@ body.contact{
     top:0;left:0;
     outline:1px solid transparent;
     backface-visibility:hidden;
-    transition:1s
+    transition:1s;
+    padding-left: 15px;
+    padding-left: 15px
     }
 
     /* .caroussel img{filter:blur(3px);opacity:.8} */
