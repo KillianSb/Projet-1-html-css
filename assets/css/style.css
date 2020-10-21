@@ -358,6 +358,11 @@ body.contact{
     padding-left: 80px;
  }
 
+ .blockInformation iframe {
+    width: 600px;
+    height: 450px;
+ }
+
  @media screen and (max-width: 1076px) {
     .blockInformation {
         font-size: 20px;
@@ -371,7 +376,13 @@ body.contact{
         flex-direction: column;
         text-align: center;
     }
+
+    .blockInformation iframe {
+        width: 500px;
+        height: 400px;
+    }
  }
+ 
 
  @media screen and (max-width: 600px) {
     .blockInformation {
