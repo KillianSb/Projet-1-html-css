@@ -365,7 +365,7 @@ body.contact{
 
  /* Section Responsive */
 
- @media screen and (max-width: 1076px) {
+ @media screen and (max-width: 1479px) {
     .blockInformation {
         font-size: 20px;
         padding: 0px;
@@ -466,6 +466,24 @@ body.contact{
     .containerBlockContact h2 {
         font-size: 22px;
         margin-right: 220px;
+    }
+
+    .blockInformation iframe {
+        width: 250px;
+        height: 100px;
+    }
+
+ }
+
+ @media screen and (max-width: 346px) {
+
+    .containerBlockContact form {
+        padding-right: 240px;
+    }
+
+    .containerBlockContact h2 {
+        font-size: 19px;
+        margin-right: 240px;
     }
 
     .blockInformation iframe {
