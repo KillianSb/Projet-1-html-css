@@ -384,7 +384,7 @@ body.contact{
  }
  
 
- @media screen and (max-width: 632px) {
+ @media screen and (max-width: 650px) {
     .blockInformation {
         font-size: 20px;
         padding: 0px;
@@ -425,7 +425,7 @@ body.contact{
 
     .containerBlockContact h2 {
         font-size: 27px;
-        text-align: center;
+        margin-right: 90px;
     }
  }
 
@@ -433,6 +433,42 @@ body.contact{
 
     .containerBlockContact form {
         padding-right: 130px;
+    }
+
+    .containerBlockContact h2 {
+        font-size: 27px;
+        margin-right: 130px;
+    }
+
+ }
+
+ @media screen and (max-width: 454px) {
+
+    .containerBlockContact form {
+        padding-right: 180px;
+    }
+
+    .containerBlockContact h2 {
+        font-size: 24px;
+        margin-right: 180px;
+    }
+
+ }
+
+ @media screen and (max-width: 400px) {
+
+    .containerBlockContact form {
+        padding-right: 220px;
+    }
+
+    .containerBlockContact h2 {
+        font-size: 22px;
+        margin-right: 220px;
+    }
+
+    .blockInformation iframe {
+        width: 250px;
+        height: 100px;
     }
 
  }
