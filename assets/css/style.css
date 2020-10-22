@@ -363,6 +363,8 @@ body.contact{
     height: 450px;
  }
 
+ /* Section Responsive */
+
  @media screen and (max-width: 1076px) {
     .blockInformation {
         font-size: 20px;
@@ -472,6 +474,8 @@ body.contact{
     }
 
  }
+
+  /* FIN Section Responsive */
 
 /* FIN CONTACT */
 
