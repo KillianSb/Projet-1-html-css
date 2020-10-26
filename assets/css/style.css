@@ -277,6 +277,34 @@ nav img{
     transition: 0.1s;
 }
 
+@media screen and (max-width: 735px) {
+
+    .blockFooter li a {
+        font-size: 14px; 
+    }
+}
+
+@media screen and (max-width: 590px) {
+
+    .blockFooter li a {
+        font-size: 12px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .blockFooter li a {
+        font-size: 11px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .logoFooter {
+        margin-bottom: -30px;
+    }
+}
 
 /* CONTACT */
 
@@ -1554,5 +1582,8 @@ body.contact{
             margin-top: 40%;
             font-size: 12px;
         }
+        .linear-gradient {
+            height: 1600px;
+            }
     }
 
