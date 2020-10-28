@@ -706,6 +706,10 @@ body.contact{
         max-width: 60%;
         font-size: 14px;
     }
+    
+    .slidein p{
+        font-size: 12px;
+    }
  }
 
 /* HEADER */
