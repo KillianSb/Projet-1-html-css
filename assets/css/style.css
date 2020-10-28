@@ -562,7 +562,17 @@ body.contact{
         cursor: pointer;
         transition: 0.5s ease-in-out;
     }
-    
+
+    .galleryPicture{
+        margin-top: 150px;
+    }
+
+    .galleryPicture .gallery{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    } 
+
     .galleryPicture .containerPicture{
         background-color: black;
         margin: 23px;
@@ -570,7 +580,6 @@ body.contact{
         height: 482px;
         width: 407px;
         display: flex;
-        flex-direction: row;
         justify-content: center;
         align-items: center;
         transition: 0.5s ease-in-out;
