@@ -653,6 +653,28 @@ body.contact{
     margin-top: 25px;
 }
 
+.slidein {
+    overflow: hidden;
+}
+
+.slidein p {
+    animation-duration: 15s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: -40%;
+      width: 100%;
+    }
+  }
+
 /* HEADER */
 
 /* HOME */
