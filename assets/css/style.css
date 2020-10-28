@@ -397,14 +397,14 @@ body.contact{
     .blockInformation {
         font-size: 20px;
         padding: 0px;
-        text-align: center;
+
     }
 
     .containerBlockContact{
         margin: 200px 10% 5% 10%;
-        justify-content: space-between;
+        align-items: center !important;
         flex-direction: column;
-        text-align: center;
+
     }
 
     .blockInformation iframe {
@@ -422,7 +422,7 @@ body.contact{
 
     .containerBlockContact{
         margin: 200px 10% 5% 10%;
-        justify-content: space-between;
+        align-items: center !important;
         flex-direction: column;
     }
 
