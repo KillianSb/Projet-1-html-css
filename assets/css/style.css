@@ -208,6 +208,7 @@ nav img{
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-right: 100px;
     }
 
     .firstBlockHome{
@@ -602,7 +603,7 @@ body.contact{
 }
 
 .aboutText{
-    height: 1000px;
+    height: auto;
     width: 50%;
     background-color: #151418;
     display: flex;
@@ -668,6 +669,44 @@ body.contact{
       width: 100%;
     }
   }
+
+ @media screen and (max-width: 1250px) {
+    .aboutText h2{
+        font-size: 40px;
+        text-align: left;
+    }
+    .aboutText p{
+        font-size: 15px;
+    }
+
+ }
+
+ @media screen and (max-width: 1000px) {
+    .firstBlockAbout{
+        flex-direction: column;
+    }
+
+    .aboutText, .firstBlockAbout video{
+        width: 100%;
+    }
+
+    .aboutText{
+        height: 70vh;
+    }
+
+    .aboutText h2{
+        max-width: 80%;
+    }
+
+    .aboutText p{
+        max-width: 80%;
+    }
+
+    .aboutText a{
+        max-width: 60%;
+        font-size: 14px;
+    }
+ }
 
 /* HEADER */
 
