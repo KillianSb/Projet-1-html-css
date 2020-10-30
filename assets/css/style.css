@@ -82,6 +82,7 @@ nav img{
     transition: 0.1s;
 }
 
+
 @media screen and (max-width: 1250px) { 
     .header a{
         font-size: 13px;
