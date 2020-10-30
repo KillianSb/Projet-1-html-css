@@ -208,12 +208,8 @@ nav img{
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-right: 100px;
-    }
-
-    .firstBlockHome{
-        padding-right: 50px;
-        padding-left: 50px;
+        margin-right: 50px !important;
+        margin-left: 50px;
     }
   }
 
@@ -983,7 +979,10 @@ body.contact{
 
 .sixthBlockHome .containerBlockMenu .blockMenuHome{
     width: 407px;
-    margin: 0px 27px 0px 27px;
+    margin: 50px 27px 0px 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .sixthBlockHome .containerBlockMenu .blockMenuHome h3{
@@ -1000,6 +999,11 @@ body.contact{
 .sixthBlockHome .containerBlockMenu .blockMenuHome span{
     font-size: 25px;
     color:#e58f00;
+}
+
+.blockMenuHome img{
+    width: 400px;
+    height: auto;
 }
 
 .seventhBlockHome{
@@ -1332,6 +1336,10 @@ body.contact{
 
     .sixthBlockHome{
         padding: 0px 25px 0px 25px;
+    }
+
+    .blockMenuHome img{
+        width: 80%;
     }
 }
 
