@@ -594,6 +594,21 @@ body.contact{
         transform: scale(1.3);
     }
 
+    @media screen and (max-width: 600px) {
+
+        .containerPicture img, .galleryPicture .containerPicture{
+            width: 271px;
+            height: 321px;
+        }
+
+        .galleryPhotos h2{
+            font-size: 20px;
+        }
+
+        .galleryPhotos p{
+            font-size: 14px;
+        }
+    }
 
 /* FIN GALLERY */
 
