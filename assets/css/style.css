@@ -400,10 +400,17 @@ body.contact{
     }
 
     .containerBlockContact{
-        margin: 200px 10% 5% 10%;
-        align-items: center !important;
-        flex-direction: column;
+        margin: 200px 5% 5% 5%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
+    .containerBlockContact .form{
+        padding-left: 40px;
+    }
+
+    .blockInformation{
+        padding-left: 40px;
     }
 
     .blockInformation iframe {
@@ -411,18 +418,19 @@ body.contact{
         height: 400px;
     }
  }
- 
+
+ @media screen and (max-width: 1100px) {
+
+    .blockInformation, .containerBlockContact .form{
+        padding: 0;
+    }
+
+ }
 
  @media screen and (max-width: 650px) {
     .blockInformation {
         font-size: 20px;
         padding: 0px;
-    }
-
-    .containerBlockContact{
-        margin: 200px 10% 5% 10%;
-        align-items: center !important;
-        flex-direction: column;
     }
 
     .blockInformation iframe {
@@ -437,14 +445,31 @@ body.contact{
         padding: 0px;
     }
 
-    .containerBlockContact{
-        margin: 200px 10% 5% 10%;
-        justify-content: space-between;
+    .containerFirstLine{
         flex-direction: column;
+        width: 100%;
+        align-items: center;
     }
 
-    .containerBlockContact form {
-        padding-right: 80px;
+    .containerBlockContact .containerFirstLine input, .containerBlockContact input, .containerBlockContact textarea{
+        width: 80%;
+    }
+
+    .containerBlockContact .form form input{
+        height: 30px;
+    }
+
+    .containerBlockContact textarea{
+        height: 100px;
+    }
+
+    .containerBlockContact form{
+        align-items: center;
+    }
+
+    .containerBlockContact .form h2{
+        margin: 20px 0px 20px 0px;
+        padding: 0% 10% 0% 10%;
     }
 
     .blockInformation iframe {
@@ -460,62 +485,9 @@ body.contact{
 
  @media screen and (max-width: 500px) {
 
-    .containerBlockContact form {
-        padding-right: 130px;
-    }
 
     .containerBlockContact h2 {
         font-size: 27px;
-        margin-right: 130px;
-    }
-
- }
-
- @media screen and (max-width: 454px) {
-
-    .containerBlockContact form {
-        padding-right: 180px;
-    }
-
-    .containerBlockContact h2 {
-        font-size: 24px;
-        margin-right: 180px;
-    }
-
- }
-
- @media screen and (max-width: 400px) {
-
-    .containerBlockContact form {
-        padding-right: 220px;
-    }
-
-    .containerBlockContact h2 {
-        font-size: 22px;
-        margin-right: 220px;
-    }
-
-    .blockInformation iframe {
-        width: 250px;
-        height: 100px;
-    }
-
- }
-
- @media screen and (max-width: 346px) {
-
-    .containerBlockContact form {
-        padding-right: 240px;
-    }
-
-    .containerBlockContact h2 {
-        font-size: 19px;
-        margin-right: 240px;
-    }
-
-    .blockInformation iframe {
-        width: 250px;
-        height: 100px;
     }
 
  }
