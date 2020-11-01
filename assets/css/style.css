@@ -807,7 +807,7 @@ body.contact{
     margin-top: 120px;
     margin-left: 120px;
     display: flex;
-
+    align-items: center;
 }
 
 
@@ -828,6 +828,8 @@ body.contact{
 
 .secondBlockHome p{
     font-size: 33px;
+    font-family: "Montserrat";
+    font-weight: 500;
 }
 
 .thirdBlockHome{
@@ -868,7 +870,7 @@ body.contact{
     color: white;
     width: 550px;
     position: absolute;
-    top: 200px;
+    top: 100px;
     margin-left: 200px;
 }
 
@@ -878,6 +880,8 @@ body.contact{
 
 .thirdBlockHome p{
     font-size: 33px;
+    font-family: "Montserrat";
+    font-weight: 500;
 }
 
 .fourthBlockHome{
@@ -968,7 +972,7 @@ body.contact{
 
 .sixthBlockHome .containerBlockMenu{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -1025,7 +1029,7 @@ body.contact{
 .seventhBlockHome p{
     color: white;
     font-size: 33px;
-    max-width: 700px;
+    width: 90%;
 }
 
 @media screen and (max-width: 1400px){
@@ -1116,6 +1120,14 @@ body.contact{
         position: static;
         margin-left: 0px;
     }
+
+    .seventhBlockHome p{
+        font-size: 20px;
+    }
+
+    .seventhBlockHome img{
+        margin-right: 100px;
+    }
 }
 
 @media screen and (max-width : 1007px){
@@ -1171,10 +1183,6 @@ body.contact{
         width: 300px;
     }
 
-    .seventhBlockHome{
-        height: 250px;
-    }
-
     .seventhBlockHome h2{
         font-size: 25px;
     }
@@ -1205,7 +1213,7 @@ body.contact{
     }
 
     .thirdBlockHome{
-        height: 500px;
+        height: 600px;
     }
 
     .thirdBlockHome h2{
@@ -1257,8 +1265,33 @@ body.contact{
     }
 
     .seventhBlockHome{
-        height: 170px;
+        height: 270px;
     }
+}
+
+@media screen and (max-width: 800px){
+
+    .seventhBlockHome h2{
+        font-size: 20px;
+    }
+
+    .seventhBlockHome p{
+        font-size: 18px;
+        padding-right: 0px;
+    }
+
+    .seventhBlockHome img{
+        height: 200px;
+        width: 130px;
+        object-fit: cover;
+        object-position: 100% 50%;
+        margin-right: 20px;
+    }
+
+    .seventhBlockHome{
+        height: 350px;
+    }
+
 }
 
 @media screen and (max-width: 600px){
