@@ -108,7 +108,7 @@ nav img{
 }
   @media screen and (max-width: 900px) { 
     nav img{
-        scale: 0.8;
+        transform: scale(0.8);
     }
 
     .header{
@@ -503,7 +503,6 @@ body.contact{
         color:black;
         background-color: #151418;
         font-family: "Aachen BT";
-        position: center;
         padding: 0;
         margin: 0;
     }
