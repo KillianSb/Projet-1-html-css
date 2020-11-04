@@ -1472,6 +1472,12 @@ body.contact{
         font-weight: normal;
     }
 
+    .price {
+        font-weight: normal;
+        margin-top: -15px;
+    }
+
+
     /* Responsive */
     @media screen and (max-width: 800px) {
         .columns {
